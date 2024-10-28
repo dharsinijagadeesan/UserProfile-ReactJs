@@ -1,0 +1,75 @@
+.top {
+  display: flex;
+  justify-content: center; 
+  align-items: center;  
+  height: 100vh;  
+  background-image: url('bg.webp'); 
+  background-size: cover;  
+  background-position: center; 
+  background-repeat: no-repeat; 
+  margin: 0; 
+  position: relative;  
+}
+
+.container {
+  display: flex;
+  flex-direction: column;  
+  align-items: center;  
+  background: linear-gradient(rgb(56, 28, 184), #d8d4d1);  
+  width: 45%; 
+  height: 70%;  
+  padding: 20px;  
+  border-radius: 20px;  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+  position: relative;  
+  z-index: 0; 
+   
+}
+
+img {
+  height: 150px;  
+  width: 150px;  
+  border-radius: 50%;  
+  margin-top: -75px;  
+  padding: 0px;
+  background: #fdf3f3;
+  position: absolute;  
+  top: 105px;  
+  left: 50%;  
+  transform: translateX(-50%);  
+  z-index: 1;  
+}
+
+.profile-box {
+  background-color: #fdf3f3;  
+  border-radius: 20px;  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+  padding: 20px;  
+  margin-top: 75px;  
+  width: 100%; 
+  max-width: 400px;  
+  height: auto;  
+  text-align: center;
+}
+
+.profile-box label {
+  display: block;  
+  font-size: 20px;  
+  margin-bottom: 10px;  
+  color: #333;  
+}
+
+.profile-box button {
+  background-color: #dad5d5;  
+  color: #000000;  
+  border: 0.2px solid rgba(59, 48, 48, 0.274);  
+  border-radius: 25px; 
+  padding: 10px 20px; 
+  cursor: pointer;  
+  margin: 10px;  
+  font-size: 18px;  
+}
+
+.profile-box button:hover {
+  background-color: #9c9fa3;  
+}
